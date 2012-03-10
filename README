@@ -4,7 +4,6 @@ Closure Compiler <http://code.google.com/closure/compiler/>
 Contains externs files for:
 - jQuery 1.5.2 <http://jquery.com/>
 - gmap3 4.1 (jQuery Plugin)  <http://gmap3.net/>
-- QueryString (jQuery Plugin)
 - Google Maps Javascript API V3 <http://code.google.com/apis/maps/documentation/javascript/>
 - jwPlayer 5.9 <http://www.longtailvideo.com/players/>
 - FireBug <http://getfirebug.com/>
