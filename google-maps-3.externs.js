@@ -4,15 +4,72 @@
  * @externs
  */
 
-if ( google === undefined ) {
-  var google = {};
-}
+var google;
 
-if ( ! 'maps' in google ) {
-  google.maps = {};
-}
+google.maps;
 
+/**
+ * Crea un Mapa de Google
+ * @constructor
+ */
+google.maps.Map = function() {};
+
+google.maps.Map.prototype.mapTypes;
+google.maps.Map.prototype.setOptions = function() {};
+google.maps.Map.prototype.getMapTypeId = function () {};
+google.maps.Map.prototype.panTo = function () {};
+google.maps.Map.prototype.getDiv = function() {};
+
+/**
+ * Crea un Mapa de Google
+ * @constructor
+ */
 google.maps.MarkerImage = function() {};
+
+/**
+ * Crea un Mapa de Google
+ * @constructor
+ */
 google.maps.Size = function() {};
+
+/**
+ * Crea un Mapa de Google
+ * @constructor
+ */
 google.maps.Point = function() {};
+
+/**
+ * Crea un Mapa de Google
+ * @constructor
+ */
 google.maps.LatLng = function() {};
+
+/**
+ * Crea un Mapa de Google
+ * @constructor
+ */
+google.maps.ImageMapType = function() {};
+
+google.maps.event;
+
+google.maps.event.addListener = function() {};
+
+/**
+ * Crea un Mapa de Google
+ * @constructor
+ */
+google.maps.InfoWindow = function() {};
+
+/**
+ * Crea un Mapa de Google
+ * @enum {string}
+ */
+google.maps.Animation = {
+  'DROP': 'drop'
+};
+
+/**
+ * Crea un Mapa de Google
+ * @constructor
+ */
+google.maps.Marker = function() {};

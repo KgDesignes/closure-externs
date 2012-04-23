@@ -7,7 +7,7 @@
 /**
  * Crea u obtiene un reproductor JWPlayer
  * @param {string=} opt_id ID del contenedor del reproductor
- * @return ({JWPlayerObject}|null) Reproductor asociado al contenedor
+ * @return {jwplayer.Player|null} Reproductor asociado al contenedor
  */
 function jwplayer(opt_id) {};
 
