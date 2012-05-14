@@ -81,3 +81,29 @@ google.maps.Animation = {
 google.maps.Marker = function() {};
 
 google.maps.Marker.prototype.setMap = function(map) {};
+
+google.maps.ControlPosition = {
+  'DEFAULT': 0,
+  'HORIZONTAL_BAR': 1,
+  'DROPDOWN_MENU': 2
+};
+
+google.maps.MapTypeControlStyle = {
+  'BOTTOM': 11,
+  'BOTTOM_CENTER': 11,
+  'BOTTOM_LEFT': 10,
+  'BOTTOM_RIGHT': 12,
+  'LEFT': 5,
+  'LEFT_BOTTOM': 6,
+  'LEFT_CENTER': 4,
+  'LEFT_TOP': 5,
+  'Ll': 13,
+  'RIGHT': 7,
+  'RIGHT_BOTTOM': 9,
+  'RIGHT_CENTER': 8,
+  'RIGHT_TOP': 7,
+  'TOP': 2,
+  'TOP_CENTER': 2,
+  'TOP_LEFT': 1,
+  'TOP_RIGHT': 3
+};
