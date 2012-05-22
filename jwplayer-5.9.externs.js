@@ -52,6 +52,13 @@ jwplayer.Player.prototype.onPlaylist = function(callback) {};
 jwplayer.Player.prototype.registerPlugin = function(id, template, opt_swf) {};
 
 /**
+ * Returns the DOM container of the Player
+ * @return {Element} container
+ * @nosideeffects
+ */
+jwplayer.Player.prototype.getContainer = function() {};
+
+/**
  * Obtiene un plugin por ID
  * @param {string} id Id del plugin a obtener
  * @return {?jwplayer.PluginInterface} El plugin o null si no hay un plugin con ese id
