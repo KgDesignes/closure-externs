@@ -1,12 +1,12 @@
 /**
- * Firebug debugging console, compatible with webkit console
+ * Firebug debugging FirebugConsole, compatible with webkit FirebugConsole
  */
 
 /**
- * Console
+ * FirebugConsole
  * @constructor
  */
-function Console () {}
+function FirebugConsole () {}
 
 /**
  * LOG
@@ -14,7 +14,7 @@ function Console () {}
  * @return {undefined} No devuelve nada
  * @nosideeffects
  */
-Console.prototype.log = function(var_args) {};
+FirebugConsole.prototype.log = function(var_args) {};
 
 /**
  * INFO
@@ -22,7 +22,7 @@ Console.prototype.log = function(var_args) {};
  * @return {undefined} No devuelve nada
  * @nosideeffects
  */
-Console.prototype.info = function(var_args) {};
+FirebugConsole.prototype.info = function(var_args) {};
 
 /**
  * GROUP
@@ -30,7 +30,7 @@ Console.prototype.info = function(var_args) {};
  * @return {undefined} No devuelve nada
  * @nosideeffects
  */
-Console.prototype.group = function(var_args) {};
+FirebugConsole.prototype.group = function(var_args) {};
 
 /**
  * GROUP COLLAPSED
@@ -38,7 +38,7 @@ Console.prototype.group = function(var_args) {};
  * @return {undefined} No devuelve nada
  * @nosideeffects
  */
-Console.prototype.groupCollapsed = function(var_args) {};
+FirebugConsole.prototype.groupCollapsed = function(var_args) {};
 
 /**
  * GROUP END
@@ -46,10 +46,10 @@ Console.prototype.groupCollapsed = function(var_args) {};
  * @return {undefined} No devuelve nada
  * @nosideeffects
  */
-Console.prototype.groupEnd = function(var_args) {};
+FirebugConsole.prototype.groupEnd = function(var_args) {};
 
 /**
  * Consola de errores
- * @type {Console}
+ * @type {FirebugConsole}
  */
 var console;
