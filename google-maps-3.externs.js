@@ -26,6 +26,9 @@ google.maps.Map.prototype.panTo = function (coords) {};
 /** @nosideeffects */
 google.maps.Map.prototype.getDiv = function() {};
 
+/** @nosideeffects */
+google.maps.Map.prototype.getBounds = function() {};
+
 /**
  * Crea un Mapa de Google
  * @constructor
@@ -49,6 +52,23 @@ google.maps.Point = function(x, y) {};
  * @constructor
  */
 google.maps.LatLng = function(lat, lng) {};
+
+/**
+ * Crea un Mapa de Google
+ * @param {google.maps.LatLng} sw
+ * @param {google.maps.LatLng} ne
+ * @constructor
+ */
+google.maps.LatLngBounds = function(sw, ne) {};
+
+/**
+ * @param {google.maps.LatLngBounds} other
+ * @returns {Boolean}
+ * @nosideeffects
+ */
+google.maps.LatLngBounds.prototype.intersects = function(other) {
+
+}
 
 /**
  * Crea un Mapa de Google
